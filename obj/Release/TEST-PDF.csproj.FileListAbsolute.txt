@@ -1,0 +1,13 @@
+C:\Users\USER03\source\repos\TEST-PDF\bin\Release\TEST-PDF.exe.config
+C:\Users\USER03\source\repos\TEST-PDF\bin\Release\TEST-PDF.exe
+C:\Users\USER03\source\repos\TEST-PDF\bin\Release\TEST-PDF.pdb
+C:\Users\USER03\source\repos\TEST-PDF\bin\Release\Newtonsoft.Json.dll
+C:\Users\USER03\source\repos\TEST-PDF\bin\Release\Newtonsoft.Json.xml
+C:\Users\USER03\source\repos\TEST-PDF\obj\Release\TEST-PDF.csproj.AssemblyReference.cache
+C:\Users\USER03\source\repos\TEST-PDF\obj\Release\TEST_PDF.Form1.resources
+C:\Users\USER03\source\repos\TEST-PDF\obj\Release\TEST_PDF.Properties.Resources.resources
+C:\Users\USER03\source\repos\TEST-PDF\obj\Release\TEST-PDF.csproj.GenerateResource.cache
+C:\Users\USER03\source\repos\TEST-PDF\obj\Release\TEST-PDF.csproj.CoreCompileInputs.cache
+C:\Users\USER03\source\repos\TEST-PDF\obj\Release\TEST-PDF.csproj.CopyComplete
+C:\Users\USER03\source\repos\TEST-PDF\obj\Release\TEST-PDF.exe
+C:\Users\USER03\source\repos\TEST-PDF\obj\Release\TEST-PDF.pdb
