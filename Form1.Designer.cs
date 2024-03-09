@@ -68,8 +68,8 @@ namespace TEST_PDF
             this.marcasNumerosHBL = new System.Windows.Forms.TextBox();
             this.tipoPaqueteMBL = new System.Windows.Forms.TextBox();
             this.tipoPaqueteHBL = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.descripcionMBL = new System.Windows.Forms.TextBox();
+            this.descripcionHBL = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
@@ -366,19 +366,19 @@ namespace TEST_PDF
             this.tipoPaqueteHBL.Size = new System.Drawing.Size(165, 20);
             this.tipoPaqueteHBL.TabIndex = 37;
             // 
-            // textBox21
+            // descripcionMBL
             // 
-            this.textBox21.Location = new System.Drawing.Point(158, 430);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(165, 20);
-            this.textBox21.TabIndex = 38;
+            this.descripcionMBL.Location = new System.Drawing.Point(158, 430);
+            this.descripcionMBL.Name = "descripcionMBL";
+            this.descripcionMBL.Size = new System.Drawing.Size(165, 20);
+            this.descripcionMBL.TabIndex = 38;
             // 
-            // textBox22
+            // descripcionHBL
             // 
-            this.textBox22.Location = new System.Drawing.Point(407, 430);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(165, 20);
-            this.textBox22.TabIndex = 39;
+            this.descripcionHBL.Location = new System.Drawing.Point(407, 430);
+            this.descripcionHBL.Name = "descripcionHBL";
+            this.descripcionHBL.Size = new System.Drawing.Size(165, 20);
+            this.descripcionHBL.TabIndex = 39;
             // 
             // label12
             // 
@@ -405,8 +405,8 @@ namespace TEST_PDF
             this.ClientSize = new System.Drawing.Size(739, 469);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox22);
-            this.Controls.Add(this.textBox21);
+            this.Controls.Add(this.descripcionHBL);
+            this.Controls.Add(this.descripcionMBL);
             this.Controls.Add(this.tipoPaqueteHBL);
             this.Controls.Add(this.tipoPaqueteMBL);
             this.Controls.Add(this.marcasNumerosHBL);
@@ -492,8 +492,8 @@ namespace TEST_PDF
         private System.Windows.Forms.TextBox marcasNumerosHBL;
         private System.Windows.Forms.TextBox tipoPaqueteMBL;
         private System.Windows.Forms.TextBox tipoPaqueteHBL;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox descripcionMBL;
+        private System.Windows.Forms.TextBox descripcionHBL;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
     }
