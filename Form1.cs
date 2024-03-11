@@ -23,8 +23,8 @@ namespace TEST_PDF
         string textoHBL;
         private string direccionMBL;
         private string direccionHBL;
-        string license_code = "490C2031-496D-43C3-857E-AC155599E4E6";//"AFC02401-9336-4F3F-BC32-D1B8B4179B4F";//"490C2031-496D-43C3-857E-AC155599E4E6";
-        string user_name = "isma1721";//"ANTONIO292002";//"isma1721";
+        string license_code = "AFC02401-9336-4F3F-BC32-D1B8B4179B4F";//"AFC02401-9336-4F3F-BC32-D1B8B4179B4F";//"490C2031-496D-43C3-857E-AC155599E4E6";
+        string user_name = "ANTONIO292002";//"ANTONIO292002";//"isma1721";
         //private string ocrURL = @"http://www.ocrwebservice.com/restservices/processDocument?language=english&pagerange=1-5&gettext=true&outputformat=doc";
         public Form1()
         {
@@ -168,7 +168,7 @@ namespace TEST_PDF
 
         private void ProcesaDocumentoMBL(string user_name, string license_code, string file_path)
         {
-            string ocrURL = @"http://www.ocrwebservice.com/restservices/processDocument?language=english&gettext=true&outputformat=doc";
+            string ocrURL = @"http://www.ocrwebservice.com/restservices/processDocument?language=english&gettext=true&outputformat=xlxs";
 
             //string ocrURL = @"http://www.ocrwebservice.com/restservices/processDocument?gettext=true";
 
@@ -217,7 +217,7 @@ namespace TEST_PDF
             // Build your OCR:
 
             // Extraction text with English language
-            string ocrURL = @"http://www.ocrwebservice.com/restservices/processDocument?language=english&pagerange=1-5&gettext=true&outputformat=doc";
+            string ocrURL = @"http://www.ocrwebservice.com/restservices/processDocument?language=english&pagerange=1-5&gettext=true&outputformat=xlxs";
 
             //string ocrURL = @"http://www.ocrwebservice.com/restservices/processDocument?gettext=true";
 
@@ -273,9 +273,9 @@ namespace TEST_PDF
 
             //-------------------------MSC--------------------------
             //textoMBL = "{\"ErrorMessage\":\"\",\"OutputInformation\":null,\"AvailablePages\":23,\"ProcessedPages\":2,\"OCRText\":[[\"See websde for large version of the reverse Ver paging Web para terminos y condiciones Cm:iron - re BeC - caCir nrm 03HaKOMfeHtnp C yorionyhf nu II 110110) KeH 1Mtl I 1 -,1114.r.441:4114,itt - Tit490.Mk - www.m9c.com MEDITERRANEAN SHIPPING COMPANY S.A.SC 12 - 14, chemin Rieu -CH - 1208 GENEVA, Switzerland website: www.msc.com SEA WAYBILL No. MEDUEP874872 NOT NEGOTIABLE - COPY \"Port-To-Port\" or \"Combined Transport\"(see Clause 1) NO.& SEQUENCE OF SEA WAYBILLS NO. OF RIDER PAGES One SHIPPER: CIMC WETRANS DELFIN LOGISTICS (HK)CO., LIMITED UNIT 10, 23F, GLOBAL GATEWAY TOWER, 63 WING HONG STREET, KL, HONG KONG TEL:(852) 3619 9532 CONSIGNEE: DELFIN GROUP CO S.A.C. RUC: 20516667550 CALLE ANTEQUERA 777 PISO 12 SAN ISIDRO LIMA PERU TEL:51 6153535 E-MAIL:OPERATIONS@DELFINGROUPCO.COM.PE NOTIFY PARTIES : (No responsibility shall attach to Carder or to his Agent for failure to notify - see Clause 20) DELFIN GROUP CO S.A.C. RUC: 20516667550 CALLE ANTEQUERA 777 PISO 12 SAN ISIDRO LIMA PERU TEL:51 6153535 E-MAIL:OPERATIONS@DELFINGROUPCO.COM.PE CARRIERS AGENTS ENDORSEMENTS: (Include Agent(s) at POD) SHIPPER'S LOAD, STOW AND COUNT SHIPPER'S LOAD, COUNT AND SEALED. Carrier has no liability or responsibility whatsoever for thermal loss or damage to the goods by reason of natural variations M atmospheric temperatures during the winter period, and / or caused by inadequate packing of the Goods for carnage in chywan containers, and / or inherent vice of the Goods, in such temperatures. FCLFCL SAID TO CONTAIN Lloyds/IMO Number: 9406738 The Peruvian local charges '13ESPACHOOOCUMENTARIO\", \"DESPACHO DE CONTENEDOR\" and, ..GATE IWO, are due and payable M destination by the MerchaM M accordance with Carrier's terms and Conditions available M lenvw.msc.com/per/contract-of-caniagehnsc-perwterrns-oonditions. Merchants' attention is brought to the fact that M application of the Peruvian legislative Decree n1492 dated May 10th, 2020, Peruvian customs have full control over cargo delivery after discharge. The Carrier is not in position to control the release process and is therefore not responsible for delivery of cargo without the preseMation of the original bill of lading DUE TO [Continued in the Description section] PORT OF DISCHARGE AGENT: MEDITERRANEAN SHIPPING COMPANY DEL PERU SA.C.Office Callao Av. Nestor Gambeta 358 Callao Phone : +51 1 613 7200 Fax : +51 1 613 7201 Service Contract Number 82174-46-ST IIII ■ I 101 VESSEL AND VOYAGE NO (see Clause 8 & 9) ATHOS - 2409E PORT OF LOADING QINGDAO PLACE OF RECEIPT: (Combined Transport ONLY - see Clause 1 & 5.2) )00000000000000a BOOKING REF. 177SKYKYA2436VFB (or) SHIPPER'S REF. PORT OF DISCHARGE Callao, Peru PLACE OF DELIVERY : (Combined Transport ONLY - see Clause 1 & 5.2) )000000000000000f PARTICULARS FURNISHED BY THE SHIPPER - NOT CHECKED BY CARRIER - CARRIER NOT RESPONSIBLE (seeClausel4) Container Numbers, Seal Numbers and Marks Description of Packages and Goods (Continued on attached Bill of Lading Rider pages(s), if applicable) Gross Cargo Weiaht Measurement continued from Carrier's Agent Endorsements PERUVIAN DECREE #1492, CARRIER'S LIABILITY CEASES AFTER DISCHARGE OF GOODS INTO THE PORT TERMINAL, THE CARRIER WILL NOT BE IN POSITION TO ENSURE CARGO DELIVERY AFTER DISCHARGE AND THEREFORE SHALL NOT BE RESPONSIBLE FOR DELIVERY OF CARGO WITHOUT THE PRESENTATION OF THE ORIGINAL BILL OF LADING THE CONTRACT OF CARRIAGE INCLUDES THE FOLLOWING LOCAL CHARGES IN PERU : DESPACHO DOCUMENTARIO ; DESPACHO DE CONTENEDOR AND GATE IN/OUT, SUBJECT TO THE CARRIER'S TERMS AND CONDITIONS. (www.msc.com/per/contract-of-carriagelmsc-peru-terms-conditions) In application of Peruvian Legislative Decree 1492, Carrier is not allowed to request surrender of an original Bill of Lading by Consignee as a pre-requisite to cargo delivery in Peru. Therefore, Carrier shall not have any liability whatsoever in connection with cargo delivered without prior presentation of an Original Bill of Lading. Please see attached RIDER for Container / Cargo Description(s). 2 x 40' HIGH CUBE Total Items : 37 Total Gross Weight : 36000.000 Kgs. Freight Collect s• . FREIGHT & CHARGES Cargo shall not be delivered unless Freight & Charges are paid(see Clause 16) FREIGHT & CHARGES BASIS RATE PREPAID COLLECT Ocean Freight 2 USD 1,350.00 USD 2,700.00 Terminal Handling Charges 2 USD 65.00 USD 130.00 THC 2 CNY 1,012.00 CNY 2,024.00 At origin-POL BILL Fee 1 CNY 450.00 CNY 450.00 Declared Value : TOTAL FREIGHT & CHARGES USD 2,830.00 CNY 2,474.00 RECEIVED by the Carrier from the Shipper in apparent good order and conditior unless otherwise stated herein the total number or quantity of containers or other packages or units indicated in box entitled \"Carrier's Receipt' for carriage subject to all the term hereof from the Place of Receipt or the Port of Loading, to the Port o Discharge or Place of Delivery, whichever is applicable. IN ACCEPTING THIS SEA WAYBILL THE SHIPPER EXPRESSLY ACCEPTS AND AGREES TO, ON HIS OWN BEHALF AND ON BEHALF OF THE CONSIGNEE, THE OWNER OF GOODS AND THE MERCHANT, AND WARRANTS HE HAS AUTHORITY TO DO SO, ALL THE TERMS AND CONDITIONS WHETHER PRINTED, STAMPED OR OTHERWISE INCORPORATED ON THIS SIDE AND ON THE REVERSE SIDE AND TERMS AND CONDITIONS OF THE CARRIER'S APPLICABLE TARIFF AS IF THEY WERE ALL SIGNED BY THE SHIPPER. Unless instructed otherwise in writing by the Shipper delivery of the Goods will be made only to the Consignee or his authorized representatives. This Sea Waybill is not a document of title to the Goods and delivery will made, after payment of any outstanding Freight and changes, only on provision of proper proof of identity and o authorization at the Port of Discharge or Place of Delivery, as appropriate, without the need to produce or surrender a copy of this Sea Waybill. IN WITNESS WHEREOF the Carrier, Master or their Agent has signed this Sea Waybill. DECLARED VALUE (Only applicable if Ad Valorem charges paid - see Clause 7.3) )000000000000000C CARRIER'S RECEIPT (No. of Cntrs or Pkgs rcvd by Carrier - see Clause 14.1) 2 cntrs PLACE AND DATE OF ISSUE Qingdao, China 02-Mar-2024 SHIPPED ON BOARD DATE 01-Mar-2024 SIGNED on behalf of the Carrier MSC Mediterranean Shipping Company S.A. by As Agent Sea Waybill Standard Edition - 01/2017 TERMS CONTINUED ON REVERSE _t \",\"See website for large version of the reverse I Ver paws Web pars terrrinos y condiciones Cmo-rpii-re seb-caOr Ana 03HaKOrAlleHMA C yCTIOBLIFIMLA t7 110.110;ReHLIRMM I MCSAVA111*.fttiliPLIMM WWW.MSC.COM 1111 MEDITERRANEAN SHIPPING COMPANY S.A. C12-14, chemin Rieu - CH -1208 GENEVA, Switzerland website: www.msc.com SEA WAYBILL No. RIDER PAGE Page 1 of 1 MEDUEP874872 f S CONTINUATION PARTICULARS FURNISHED BY THE SHIPPER - NOT CHECKED BY CARRIER - CARRIER NOT RESPONSIBLE(seeClausel4) Container Numbers, Seal Description of Packages and Goods Gross Cargo Measurement Numbers and Marks (Continued on attached Bill of Ladino Rider oaoes(s). if aoolicable) Weight MEDU8696726 21 Package(s) of GLASS JAR 21,000.000 kgs. 60.000 cu. m. 40' HIGH CUBE Seal Number: FX32685024 Tare Weight: 3,940 kgs. Marks and Numbers: N/M FFAU3796260 16 Package(s) of GLASS JAR 15,000.000 kgs. 45.000 cu. m. 40' HIGH CUBE Seal Number: FX32685099 Tare Weight: 3,700 kgs. Marks and Numbers: N/M Total : 36,000.000 kgs. 105.000 cu. m. %, PLACE AND DATE OF ISSUE Qingdao, China 02-Mar-2024 SHIPPED ON BOARD DATE 01-Mar-2024 SIGNED on behalf of the Carrier MSC Mediterranean Shipping Company S.A. by As Agent Sea Waybill Standard Edition - 01/2017 \"]],\"OutputFileUrl\":\"http://147.135.97.124/uploads/_output/de0c_a01b219c-d7b9-4868-9d6c-6f4b7db49de0.doc\",\"OutputFileUrl2\":\"\",\"OutputFileUrl3\":\"\",\"Reserved\":[],\"OCRWords\":[],\"TaskDescription\":null}";
-            textoHBL = "{\"ErrorMessage\":\"\",\"OutputInformation\":null,\"AvailablePages\":22,\"ProcessedPages\":1,\"OCRText\":[[\"Shipper XLZHOU SELEAD PACKAGING MATERIAL CO. , LTD ADD: 1406, GLOBAL HARBOR, YLEXING GLOBAL CONIMERCIAL CENTER, NO. 8, XLHAI ROAD, XUZHOU CITY, JIANGSU PROVINCE 221003 TEL: +86(516) - 8798 8718 Consignee N &M HOLDING SAC. RUC: 20610764232 ADD: AV MICHAEL FARADAY 729 - ATE - LIMA - PERU Notify party N 8c M HOLDING S. A.C.RUC : 20610764232 ADD: AV MICHAEL FARADAY 729 - ATE - LIMA - PERU MB / L Number HB/ L Number DLQD24020333 OCEAN BILL OF LADING CIMC WETRANS CIMC Wetrans Delfin Logistics(HK) Co., Limited TheCsoa#s and instruclions are accepted and 'leak *A siobjed in Ihe Scandied Corstlitionrs purled averle-af. Taken In-Charge in apparent amid Order and condition, tiniest otherwise noted herein. the place of receipt tar =Ripon araldavtry at mentioned below_ One Of Mei* Combined Tsansport bills al Leading Must be SuRterdeded dirty erk-•sod in exchange for the gond& In Wratnassinhateof Mt original Corrubined Tramporl al Ladling all of this !emir and date haw been titireed in the number stated below_ one or which beam acompintied die uttioni) lo be void. Pre-carriage by I Place of receipt Ocean Vessel ATHOS V. 2409E Voy No. I Port of loading QINGDAO, CHINA Port of discharge CALLAO, PERU Place of delivery CALLAO, PERU For Delivery of goods please apply to: DELFIN GROUP CO S. A. C. RUC: 20516667550 CALLE ANTEQUERA 777 P ISO 12 SAN ISIDRO LIMA PERU TEL:51 6153535 E-MAIL: OPERATIONSHELFINGROUPCO. COM. PE Container No. Seal No. Number of Kind of packages; Description of Goods Marks and Numbers Containers N,M or packages SAID TO CONTAIN 37 PACKAGES *****IMPORTANT ADVISORY=0:*** GLASS JAR CARRIAGE TO PERUVIAN PORTS IS SLBJECT TO LOCAL CHARGES THAT SHALL BE INVOICED AND PAYABLE IN PERU TO THE AGENT OF THE SHIPPING LINE ACTING AS EFFECTIVE CARRIER AND/OR THEIR DESIGNATED EMPTY CONTAINER DEPOT AND TO DELFIN GROLP CO. S. A. C . , WHICH RATES ARE PUBLISHED AT WWW . CALLAOONLINE. COM AND HTTP: // WWW. DELFINGROLP CO. COM. PE , RESPECTIVELY, AND WHICH THE 2*40HC MERCHANT HEREBY EXPRESSLY ACKNOWLEDGES AND ACCEPTS. FFAU3796260/FX32685099 16PACKAGES 15000. 000KGS 45. 000CBM MEDU8696726/FX32685024 21PACKAGES 21000. 000KGS 60.000CBM SHIPPER'S LOAD, STOW, COUNT AND SEALED. :Gross Weight Measurement 36000.000 KGS 105.000 CBM * Total Number of Containers or other packages(in words.) SAY THIRTY SEVEN PACKAGES ONLY Freight and Charges FREIGHT COLLECT Revenue tons Rate per Prepaid Collect Exchaner rate Prepaid at Payable at CAL LAO Place and date of issue QINGDAO, CHINA 2024-03-01 Total prepaid Number of original B(s)IL THREE (3) AS CARRIER Date 9074-03-01 :Signature Sig nature\"]],\"OutputFileUrl\":\"http://147.135.97.123/uploads/_output/6da4_797af61e-aff2-49aa-9278-a4d2c199006d.doc\",\"OutputFileUrl2\":\"\",\"OutputFileUrl3\":\"\",\"Reserved\":[],\"OCRWords\":[],\"TaskDescription\":null}";
+            //textoHBL = "{\"ErrorMessage\":\"\",\"OutputInformation\":null,\"AvailablePages\":22,\"ProcessedPages\":1,\"OCRText\":[[\"Shipper XLZHOU SELEAD PACKAGING MATERIAL CO. , LTD ADD: 1406, GLOBAL HARBOR, YLEXING GLOBAL CONIMERCIAL CENTER, NO. 8, XLHAI ROAD, XUZHOU CITY, JIANGSU PROVINCE 221003 TEL: +86(516) - 8798 8718 Consignee N &M HOLDING SAC. RUC: 20610764232 ADD: AV MICHAEL FARADAY 729 - ATE - LIMA - PERU Notify party N 8c M HOLDING S. A.C.RUC : 20610764232 ADD: AV MICHAEL FARADAY 729 - ATE - LIMA - PERU MB / L Number HB/ L Number DLQD24020333 OCEAN BILL OF LADING CIMC WETRANS CIMC Wetrans Delfin Logistics(HK) Co., Limited TheCsoa#s and instruclions are accepted and 'leak *A siobjed in Ihe Scandied Corstlitionrs purled averle-af. Taken In-Charge in apparent amid Order and condition, tiniest otherwise noted herein. the place of receipt tar =Ripon araldavtry at mentioned below_ One Of Mei* Combined Tsansport bills al Leading Must be SuRterdeded dirty erk-•sod in exchange for the gond& In Wratnassinhateof Mt original Corrubined Tramporl al Ladling all of this !emir and date haw been titireed in the number stated below_ one or which beam acompintied die uttioni) lo be void. Pre-carriage by I Place of receipt Ocean Vessel ATHOS V. 2409E Voy No. I Port of loading QINGDAO, CHINA Port of discharge CALLAO, PERU Place of delivery CALLAO, PERU For Delivery of goods please apply to: DELFIN GROUP CO S. A. C. RUC: 20516667550 CALLE ANTEQUERA 777 P ISO 12 SAN ISIDRO LIMA PERU TEL:51 6153535 E-MAIL: OPERATIONSHELFINGROUPCO. COM. PE Container No. Seal No. Number of Kind of packages; Description of Goods Marks and Numbers Containers N,M or packages SAID TO CONTAIN 37 PACKAGES *****IMPORTANT ADVISORY=0:*** GLASS JAR CARRIAGE TO PERUVIAN PORTS IS SLBJECT TO LOCAL CHARGES THAT SHALL BE INVOICED AND PAYABLE IN PERU TO THE AGENT OF THE SHIPPING LINE ACTING AS EFFECTIVE CARRIER AND/OR THEIR DESIGNATED EMPTY CONTAINER DEPOT AND TO DELFIN GROLP CO. S. A. C . , WHICH RATES ARE PUBLISHED AT WWW . CALLAOONLINE. COM AND HTTP: // WWW. DELFINGROLP CO. COM. PE , RESPECTIVELY, AND WHICH THE 2*40HC MERCHANT HEREBY EXPRESSLY ACKNOWLEDGES AND ACCEPTS. FFAU3796260/FX32685099 16PACKAGES 15000. 000KGS 45. 000CBM MEDU8696726/FX32685024 21PACKAGES 21000. 000KGS 60.000CBM SHIPPER'S LOAD, STOW, COUNT AND SEALED. :Gross Weight Measurement 36000.000 KGS 105.000 CBM * Total Number of Containers or other packages(in words.) SAY THIRTY SEVEN PACKAGES ONLY Freight and Charges FREIGHT COLLECT Revenue tons Rate per Prepaid Collect Exchaner rate Prepaid at Payable at CAL LAO Place and date of issue QINGDAO, CHINA 2024-03-01 Total prepaid Number of original B(s)IL THREE (3) AS CARRIER Date 9074-03-01 :Signature Sig nature\"]],\"OutputFileUrl\":\"http://147.135.97.123/uploads/_output/6da4_797af61e-aff2-49aa-9278-a4d2c199006d.doc\",\"OutputFileUrl2\":\"\",\"OutputFileUrl3\":\"\",\"Reserved\":[],\"OCRWords\":[],\"TaskDescription\":null}";
             ProcesaDocumentoMBL(user_name, license_code, direccionMBL);
-            //ProcesaDocumentoHBL(user_name, license_code, direccionHBL);
+            ProcesaDocumentoHBL(user_name, license_code, direccionHBL);
             if (textoMBL != "" && textoHBL != "") {
                 switch(lineasCombo.SelectedItem.ToString()){
                     case "HAPAG":
@@ -311,13 +311,15 @@ namespace TEST_PDF
             string patronVolumen = @"\b(\d+(\.\d+)?)\s*CBM";
             string patronFecha = @"Date\s(\d{4}-\d{2}-\d{2})";
             string patronCantidadContenedor = @"\b\d\*\d{2}[A-Z]+\b";
+            string Patrondescripcion = @"SAID TO CONTAIN\s+(.+?)\s+\w+\*";
             List<string> patrones = new List<string>
             { patronPuertoDescargaHBL,
               patronMarcasNumerosHBL,
               patronPeso,
               patronFecha,
               patronVolumen,
-              patronCantidadContenedor
+              patronCantidadContenedor,
+              Patrondescripcion
             };
 
             for (var i = 0; i < patrones.Count; i++)
@@ -418,6 +420,15 @@ namespace TEST_PDF
                                     break;
                             }
                             break;
+                        case @"SAID TO CONTAIN\s+(.+?)\s+\w+\*":
+                            descripcionHBL.Text = match.Groups[1].Value;
+                            //if (textoMBL.Contains(match.Groups[1].Value))
+                            //{
+                            //    descripcionHBL.BackColor = Color.GreenYellow;
+                            //    descripcionHBL.BackColor = Color.GreenYellow;
+                            //    descripcionMBL.Text = match.Groups[1].Value;
+                            //}
+                            break;
                     }
                 }
             }
@@ -430,6 +441,7 @@ namespace TEST_PDF
             string patronPuertoCargaMBL = @"Port of Loading:(.*?),";
             string patronPuertoDescargaMBL = @"Port of Discharge:(.*?),";
             string patronMarcaNumeroMBL = @"NOS:\s([^\s]*)";
+            string PatronDescripcionMBL = @"\\([^ ]+?)(?= of Goods)";
             //string patronMarcasNumerosHBL = @"Mzarks and Numbers\s(.*?)\s\*";
             //string patronPeso = @"\b(\d+(\.\d+)?)\s*KGS";
             //string patronVolumen = @"\b(\d+(\.\d+)?)\s*CBM";
@@ -440,6 +452,7 @@ namespace TEST_PDF
               patronPuertoDescargaMBL,
               patronNumeroContenedor,
               patronMarcaNumeroMBL,
+              PatronDescripcionMBL
             };
 
             List<string> listaTipoPackete = new List<string>
@@ -508,6 +521,16 @@ namespace TEST_PDF
                                 numeroContenedorHBL.Text = match.Groups[0].Value.Replace("SEAL", "").Replace(" ", "");
                                 numeroContenedorHBL.BackColor = Color.GreenYellow;
                             }
+                            break;
+                        case @"\\([^ ]+?)(?= of Goods)":
+                            descripcionMBL.Text = match.Groups[0].Value;
+                            //Console.WriteLine("EL NUMERO DEL CONTENEDOR ES:" + match.Groups[0].Value);
+                            //if (textoHBL.Contains(match.Groups[0].Value))
+                            //{
+                            //    descripcionMBL.BackColor = Color.GreenYellow;
+                            //    descripcionHBL.Text = match.Groups[0].Value;
+                            //    descripcionHBL.BackColor = Color.GreenYellow;
+                            //}
                             break;
                     }
                 }
